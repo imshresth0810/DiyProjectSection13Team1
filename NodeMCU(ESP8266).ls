@@ -19,11 +19,12 @@
 #include <WiFiUdp.h>
 #include <SimpleTimer.h>
 #include <Blynk.h>
-#define BLYNK_PRINT Serial
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
 #include <SoftwareSerial.h>
 #include <SimpleTimer.h>
+#define BLYNK_PRINT Serial
+
 char auth[] = "7-ibe46cmM-hGXhFYbFKkKMFSDbffN42"; // Blynk Token
 char ssid[] = "Gaurav08";                         // Our Wifi(Local Area Network)
 char pass[] = "123456789";                        // Wifi Password
